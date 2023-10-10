@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: ui-monospace, "Cascadia Code", "Consolas", "Menlo";
+	min-height: 100vh;
+	color: #555;
+}
+
+h2{
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 120px;
+	font-size: 30px;
+}
+
+.products{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-gap: 10px;
+	margin: 20px auto;
+	max-width: 1240px;
+}
+
+.events{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	grid-gap: 4px;
+	margin: 20px auto;
+	max-width: 1240px;
+}
+
+.container-grid {
+	display: grid;
+	grid-template-columns: 25% 75%; /*columns widths*/
+}
+
+.col-left {
+	background-color: yellow;
+	text-align: center;
+	padding: 4px;
+}
+
+.dia_text{
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+.dia{
+	font-size: 60px;
+	font-weight: 800;
+}
+
+.mes{
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.col-right {
+	background-color: yellow;
+	text-align: left;
+	padding: 2px;
+	padding-left: 8px;
+}
+
+.banda{
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.sala{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.poblacio{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.hora{
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 36px;
+}
