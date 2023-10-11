@@ -7,29 +7,23 @@
 body{
 	font-family: ui-monospace, "Cascadia Code", "Consolas", "Menlo";
 	min-height: 100vh;
-	color: #555;
+	color: #FFFFFF;
 }
 
-h2{
+h6{
 	text-align: left;
-	margin-top: 50px;
-	margin-left: 120px;
-	font-size: 30px;
-}
-
-.products{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-	grid-gap: 10px;
-	margin: 20px auto;
-	max-width: 1240px;
+	margin: 4px;
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding-left: 4px;
 }
 
 .events{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
 	grid-gap: 4px;
-	margin: 20px auto;
+	margin: 4px 4px;
 	max-width: 1240px;
 }
 
@@ -39,7 +33,7 @@ h2{
 }
 
 .col-left {
-	background-color: yellow;
+	background-color: #0f0f0f;
 	text-align: center;
 	padding: 4px;
 }
@@ -62,7 +56,7 @@ h2{
 }
 
 .col-right {
-	background-color: yellow;
+	background-color: #0f0f0f;
 	text-align: left;
 	padding: 2px;
 	padding-left: 8px;
